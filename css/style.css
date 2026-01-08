@@ -1,0 +1,87 @@
+/* 基本設定 */
+BODY {
+font-size : 12px;
+color : #CC9966; /* 中央の文字色を変えるときはここ */
+background-color : #fffbf8;
+font-family : Verdana,Osaka,sans-serif;
+scrollbar-face-color:#ffeaea;  scrollbar-highlight-color:#ffbcbc;  scrollbar-shadow-color:#ffbcbc;
+scrollbar-darkshadow-color: #ffeaea;  scrollbar-arrow-color:#ffbcbc;  scrollbar-track-color:#ffeaea;
+}
+/* 基本設定（背景部分） */
+#backpage {
+color : #FFF;
+background-color : #FFFFFF;
+background-image : url(img/back.png);
+text-align : center;  /* 表示位置 */
+}
+
+ /* テーブル設定・インラインフレーム設定 */
+#main{
+width : 713px;height: 736px; /* 幅と高さ 全体の大きさを変えるときはここ */
+background-color : #fffbf8;
+padding : 10px;
+color : #8c8673; /* インデックスページ中央の文字色を変えるときはここ */
+}
+/* 中央部分の位置 */
+.mainta{
+margin: 0px auto;
+height : 100%;  /* 広告表示のあるサーバーの場合90%等に変更 */
+}
+
+/* メニュー部分 */
+#menu{
+text-align : center;
+}
+.menu{
+color : #CC9966; /* メニュー文字色を変えるときはここ */
+font-size : 13px;
+}
+/* リンク */
+A {
+color : #ff9999;
+text-decoration : none;
+}
+A:HOVER{
+color : #a66273; /* リンクにマウスが乗った時の色 */
+}
+A img{
+border : 0px;
+}
+A:hover {
+  position:relative;
+  top:1px;left:2px;
+}
+/* テーブル */
+TABLE {
+font-size : 12px;
+font-family : Verdana,Osaka,sans-serif;
+}
+ /* FOOL LOVERSへのリンク */
+#fl{
+height : 20px;padding-left : 10px;text-align : right;font-size : 10px;
+}
+ /* 周りの画像 */
+.k01{
+background-image : url(img/back.png);width : 23px;height : 23px;
+}
+.k02{
+background-image : urlimg/back.png);width : 23px;height : 23px;
+}
+.k03{
+background-image : url(img/back.png);width : 23px;height : 23px;
+}
+.k04{
+background-image : url(img/back.png);width : 23px;height : 23px;
+}
+.left{
+background-image : url(img/back.png);width : 23px;
+}
+.right{
+background-image : url(img/back.png);width : 23px;
+}
+.up{
+background-image : url(img/back.png);height : 23px;
+}
+.bottom{
+background-image : url(img/back.png);height : 23px;
+}

@@ -1,0 +1,201 @@
+
+/* BODY */
+body {
+    background: #ddffff;
+    text-align:center;
+    color:#333333;
+    font-size: 16px;
+    }
+body a:link {/*未訪問のリンク*/
+    color : #0000dd;
+    text-decoration: none;
+    }
+body a:visited{/*訪問後のリンク*/
+    color : #0000dd;
+    }
+body a:hover {/*マウスをのせたとき*/
+    }
+body a:active {/*クリック中*/
+    }
+
+/* HEADER */
+header {
+	text-align: center;
+	font-size: 14pt;
+	color: #333333;
+	font-style: italic;
+	font-family: arial;
+}
+header a{/*リンクされた文字*/
+	font-style: italic;
+    text-decoration: none;
+}
+header a:link {/*未訪問のリンク*/
+    color : #333333;
+}
+header a:visited{/*訪問後のリンク*/
+    color : #333333;
+}
+header a:hover {/*マウスをのせたとき*/
+}
+header a:active {/*クリック中*/
+}
+
+/* リバースリンクテーブル */
+table td.rev {
+	font-style: italic;
+	font-family: arial;
+	font-size: 18pt;
+	background-color: #2a2c2b;
+	color: #ddffff;
+}
+table td.rev a:link {/*未訪問のリンク*/
+    color : #ddffff;
+    }
+table td.rev a:visited{/*訪問後のリンク*/
+    color : #ddffff;
+    }
+table td.rev a:hover {/*マウスをのせたとき*/
+    font-size: 19pt;
+    }
+table td.rev a:active {/*クリック中*/
+    font-size: 17pt;
+    }
+
+
+/* スタッフテーブル */
+table td.staff {
+	font-weight: bold;
+	font-family: メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+	font-size: 14pt;
+	color: #cc3399;
+	text-shadow: -1px -1px 0px rgb(255, 255, 255), -1px 1px 0px rgb(255, 255, 255), 1px 1px 0px rgb(255, 255, 255), 1px -1px 0px rgb(255, 255, 255);
+}
+table td.staff a:link {/*未訪問のリンク*/
+    color : #cc3399;
+    text-decoration:underline;
+    }
+table td.staff a:visited{/*訪問後のリンク*/
+    color : #cc3399;
+    text-decoration:underline;
+    }
+table td.staff a:hover {/*マウスをのせたとき*/
+    font-size: 15pt;
+    }
+table td.staff a:active {/*クリック中*/
+    font-size: 14pt;
+    }
+
+blockquote{
+    position:relative;
+    border:1px solid #231918;
+	background-color: #fbfaf9;
+    border-radius:10px;
+    padding:10px;
+    margin:3px;
+  }
+
+
+/* PICKUPリスト */
+li .date {
+	color: #219ecb;
+	font-family: arial;
+	font-size: 120%;
+}
+
+/* PICKUPリスト */
+.pickup_list {
+	clear: both;
+	border: 1px solid #2a2c2b;
+	background: #ddffff;
+	padding: 2px 14px 14px;
+	margin: 15px 0 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-style: normal;
+	text-align: left;
+	display: block;
+}
+.pickup_list .title {
+	background: #2a2c2b;
+	padding: 10px 12px;
+	margin: 0 -12px -10px;
+	line-height: 1.22;
+	font-size: 150%;
+	font-family: century;
+	color: #ddffff;
+}
+
+/* ボカロPの皆様へ */
+.producer_list {
+	clear: both;
+	border: 1px solid #2a2c2b;
+	background: #ddffff;
+	padding: 2px 14px 14px;
+	margin: 15px 0 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-style: normal;
+	text-align: left;
+}
+.producer_list .title {
+	background: #219ecb;
+	padding: 10px 12px;
+	margin: 0 -12px -10px;
+	line-height: 1.22;
+	font-size: 150%;
+	color: #ddffff;
+}
+
+/* ボーカリストの皆様へ */
+.vocalist_list {
+	clear: both;
+	border: 1px solid #2a2c2b;
+	background: #ddffff;
+	padding: 2px 14px 14px;
+	margin: 15px 0 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-style: normal;
+	text-align: left;
+}
+.vocalist_list .title {
+	background: #c9649a;
+	padding: 10px 12px;
+	margin: 0 -12px -10px;
+	line-height: 1.22;
+	font-size: 150%;
+	color: #ddffff;
+}
+/* FOOTER */
+footer {
+	font-size: 10pt;
+	color: #888888;
+	text-align: center;
+}
+/* スマートフォンサイトへ移動 */
+#gotosmart {
+	height: 70px;
+	width: 100%;
+	margin-top: 10px;
+	border: 2px solid #FFF;
+	background-color: #79AEBE;
+	position: absolute;
+	top: 750px;
+	left: 0px;
+	display: none;
+}
+
+#gotosmart p {
+	text-align: center;
+	font-size: 200%;
+}
+#gotosmart p a {
+	color: #FFFFFF;
+	height: 50px;
+	width: 100%;
+	display: block;
+	padding-top: 20px;
+}
+/* ここまで */
+
